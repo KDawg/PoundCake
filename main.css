@@ -1,0 +1,46 @@
+
+body {
+  font-family: 'Helvetica';
+}
+
+h1 {
+  color: #103060;
+  font-size: 4em;
+}
+
+h2 {
+  color: #111111;
+  font-size: 2.75em;
+}
+
+p, li, input {
+  color: #333333;
+  font-size: 1.75em;
+}
+
+button {
+  color: yellow;
+  background-color: dodgerblue;
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 5em 8em 5em 8em;
+}
+
+.preview-photo {
+  padding: 1em;
+  text-align: center;
+}
+
+.two-col-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container__padding {
+  padding: 0em 5em 0 5em;
+}
